@@ -1059,20 +1059,6 @@ section {
     color: var(--text-dark);
 }
 
-/* Indian Decorative Elements */
-.hero::after {
-    content: '✨';
-    position: absolute;
-    font-size: 3rem;
-    animation: twinkle 3s ease-in-out infinite;
-    opacity: 0.5;
-}
-
-@keyframes twinkle {
-    0%, 100% { opacity: 0.3; }
-    50% { opacity: 0.8; }
-}
-
 /* Add decorative borders to sections */
 .packages::before,
 .booking::before {
